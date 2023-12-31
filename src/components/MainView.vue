@@ -20,7 +20,7 @@ import MonthlyView from "./MonthlyView.vue";
     <h4>많이</h4>
     <h4>받으세요</h4>
     <div class="member-container first">대은 | 현정 | 보현</div>
-    <div class="member-container">범수 | 정민 | 재식 | 정현</div>
+    <div class="member-container last">범수 | 정민 | 재식 | 정현</div>
   </div>
 </template>
 
@@ -73,5 +73,9 @@ h4 {
 
 .first {
   margin-top: 60px;
+}
+
+.last {
+  margin-bottom: 60px;
 }
 </style>
