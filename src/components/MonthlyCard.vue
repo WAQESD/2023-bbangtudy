@@ -104,7 +104,7 @@ const thumbnailList = computed(() => {
 
 .selected-image {
   width: 100%;
-  height: auto;
+  height: 80vh;
   object-fit: contain;
 }
 .next-btn {
