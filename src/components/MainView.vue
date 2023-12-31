@@ -13,6 +13,15 @@ import MonthlyView from "./MonthlyView.vue";
   <NumberView></NumberView>
   <MapView></MapView>
   <MonthlyView></MonthlyView>
+  <div class="main-container">
+    <h2>2024</h2>
+    <h1 style="margin-bottom: 60px">🍞 빵터디 🥞</h1>
+    <h4>새해 복</h4>
+    <h4>많이</h4>
+    <h4>받으세요</h4>
+    <div class="member-container first">대은 | 현정 | 보현</div>
+    <div class="member-container">범수 | 정민 | 재식 | 정현</div>
+  </div>
 </template>
 
 <style scoped>
@@ -25,7 +34,8 @@ import MonthlyView from "./MonthlyView.vue";
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   line-height: 90px;
 }
@@ -46,5 +56,22 @@ h2 {
 h3 {
   font-size: 90px;
   font-family: "ONE-Mobile-POP" !important;
+}
+
+h4 {
+  font-size: 60px;
+  font-family: "ONE-Mobile-POP" !important;
+}
+
+.member-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Orbit-Regular" !important;
+  font-size: 18px;
+}
+
+.first {
+  margin-top: 60px;
 }
 </style>

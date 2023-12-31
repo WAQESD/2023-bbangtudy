@@ -104,7 +104,6 @@ const thumbnailList = computed(() => {
 
 .selected-image {
   width: 100%;
-  aspect-ratio: 16/9;
   height: auto;
   object-fit: contain;
 }
