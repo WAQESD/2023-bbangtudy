@@ -6,6 +6,11 @@ import MonthlyView from "./MonthlyView.vue";
 
 <template>
   <div class="main-container">
+    <div class="audio-container">
+      <audio autoplay controls>
+        <source src="../assets/audio/Shining_Road.mp3" type="audio/mp3" />
+      </audio>
+    </div>
     <h2>2023</h2>
     <h1>🍞 빵터디 🥞</h1>
     <h3>돌아보기</h3>
@@ -77,5 +82,13 @@ h4 {
 
 .last {
   margin-bottom: 60px;
+}
+
+.audio-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
 }
 </style>
