@@ -98,9 +98,6 @@ const thumbnailList = computed(() => {
   cursor: pointer;
   color: var(--grey);
 }
-.playlist-btn:hover {
-  color: white;
-}
 
 .selected-image {
   width: 100%;
@@ -158,9 +155,5 @@ const thumbnailList = computed(() => {
 
 .gallery-update-btn {
   background-color: var(--green);
-}
-
-.gallery-btn:hover {
-  opacity: 1;
 }
 </style>
