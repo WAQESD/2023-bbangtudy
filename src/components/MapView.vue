@@ -55,7 +55,7 @@ onMounted(() => {
   script.addEventListener("load", () => {
     map.value = new window.naver.maps.Map("map", {
       center: new window.naver.maps.LatLng(import.meta.env.VITE_MAP_LAT, import.meta.env.VITE_MAP_LNG),
-      zoom: 17,
+      zoom: 11,
     });
 
     cafeInfos.forEach((cafe, idx) => {
@@ -65,7 +65,7 @@ onMounted(() => {
         icon: {
           content:
             `<div style='display:flex; flex-direction:column; box-sizing: border-box; border-radius:16px; width:32px; height:32px; background-color:${colors[idx]}'> ` +
-            `<h5 style='color:white; line-height:32px; text-align: center;'>${idx + 1}</h5>` +
+            `<h5 style='color:black; line-height:32px; text-align: center;'>${idx + 1}</h5>` +
             "</div>",
           size: new window.naver.maps.Size(32, 32),
           anchor: new window.naver.maps.Point(16, 16),
